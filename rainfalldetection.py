@@ -4,7 +4,7 @@ import sklearn as sk
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("austin_final.csv ")
+data = pd.read_csv("weather_dataset_final.csv ")
 
 X = data.drop(['PrecipitationSumInches'], axis=1)
 
